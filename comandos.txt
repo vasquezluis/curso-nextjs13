@@ -1,0 +1,12 @@
+// * comandos para instalar un proyecto de nextjs
+
+#1 comando de instalacion
+npx create-next-app@latest
+
+# opcional - instalar standard (eslint)
+npm i standard -D
+- configurar en .eslintrc.json
+
+** el archivo principal en nextjs es page.jsx/js/ts/tsx
+
+** el layout.js es la pagina que envuelve las rutas

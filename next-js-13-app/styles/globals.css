@@ -1,0 +1,11 @@
+body {
+  padding: 100px;
+  max-width: 800px;
+  margin: 0 auto;
+  color: white;
+  background: black;
+}
+
+h2{
+  font-family: var(--font-grotesk), sans-serif;
+}
