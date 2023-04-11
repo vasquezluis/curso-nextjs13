@@ -11,11 +11,7 @@ async function IndexPage () {
   const users = await fecthUsers()
 
   return (
-    <div>
-      <h1>Index page</h1>
-
-      <Users users={users} />
-    </div>
+    <Users users={users} />
   )
 }
 
