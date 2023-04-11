@@ -1,13 +1,11 @@
 import React from 'react'
 
-function IndexPage() {
+function IndexPage () {
   return (
     <div>
-
-    <h1>Index page</h1>
-
+      <h1>Index page</h1>
     </div>
   )
 }
 
-export default IndexPage 
+export default IndexPage
