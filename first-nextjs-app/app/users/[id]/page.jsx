@@ -2,7 +2,7 @@ import React from 'react'
 
 function usersPage () {
   return (
-    <div> usersPage</div>
+    <div> user detail </div>
   )
 }
 
