@@ -1,0 +1,18 @@
+# bcrypt
+ -> hash password
+
+# mongodb & mongoose
+  -> database
+
+# next-auth
+  -> authentication
+
+
+# google auth
+  -> google console -> create project -> apis and services -> OAuth -> create -> fill information 
+  -> credentials -> create credentials -> OAuth client ID -> web application -> origins -> http://localhost:3000 -> Authorized redirect URIs -> http://localhost:3000/
+  -> copy client id and client secret to .env file
+  -> Authorized redirect URIs -> http://localhost:3000/api/auth/callback/google
+
+# next.config.js
+  -> add config for top-level-await problem
