@@ -1,0 +1,6 @@
+### comandos para strapi
+
+# desarrollo
+  npm run develop
+          build
+          start
