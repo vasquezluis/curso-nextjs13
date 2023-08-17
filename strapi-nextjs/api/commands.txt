@@ -1,0 +1,29 @@
+### install strapi project
+  npx create-strapi-app@latest api
+
+### run strapi in dev mode
+  npm run develop
+
+### api default api route
+  /api/videogames
+
+### access data of api
+  Must give access to elements in api for public
+  Settings -> Roles -> Public -> Permissions -> (Elements) -> find & findOne
+
+### api basic filters
+  localhost:1337/api/videogames?fields[0]=title&fields[1]=slug
+
+### fill the information in api
+  localhost:1337/api/videogames?populate=*
+
+### custom information in api
+  localhost:1337/api/videogames?populate=[platforms][fields][0]=name&populate[cover][fields][0]=url
+
+### install and use graphql
+  install graphql through the marketplace, run the server and go to the following route
+  localhost:1337/graphql
+
+### pagination
+  localhost:1337/api/videogames?pagination[pageSize]=2
+  localhost:1337/api/videogames?pagination[page]=3
