@@ -1,0 +1,2 @@
+### -> crear nuevo proyecto de nextjs
+  npx create-next-app@latest
