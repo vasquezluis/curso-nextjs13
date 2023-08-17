@@ -1,7 +1,0 @@
-### comandos para strapi
-npx create-strapi-app@latest my-project
-
-# desarrollo
-  npm run develop
-          build
-          start
